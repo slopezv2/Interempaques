@@ -1251,7 +1251,7 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		text-decoration: none;
-		background: #b1ddab;
+		background: #B82821;
 		color: #fff;
 		border: 0;
 		line-height: 1em;
@@ -1270,7 +1270,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #c1edbb;
+			background: #ED4E4E;
 		}
 
 		input[type="button"]:active,
@@ -1278,7 +1278,7 @@
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #a1cd9b;
+			background: #B82821;
 		}
 
 		input[type="button"].alt,
@@ -1648,7 +1648,7 @@
 
 	#main-wrapper {
 		background: #fff;
-		border-top: solid 5px #b1ddab;
+		border-top: solid 5px #B82821;
 		border-bottom: solid 5px #c1cac5;
 	}
 
@@ -2000,7 +2000,7 @@
 					}
 
 					#nav li.current a {
-						background: #b1ddab;
+						background: #B82821;
 						color: #fff;
 					}
 
