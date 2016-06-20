@@ -2529,7 +2529,7 @@
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #b1ddab;
+						background: #B82821;
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';
@@ -2540,7 +2540,7 @@
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #a1cd9b;
+						background-color: #B82821;
 					}
 
 			#navPanel {
