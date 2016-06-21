@@ -1165,7 +1165,7 @@
 
 	h2.major {
 		position: relative;
-		border-top: solid 5px #e7eae8;
+		border-top: solid 5px #616666;
 	}
 
 		h2.major span {
@@ -1946,7 +1946,7 @@
 			}
 
 			#main-wrapper {
-				border-top-width: 35px;
+				border-top-width: 20px;
 				border-bottom-width: 10px;
 			}
 
@@ -1966,7 +1966,7 @@
 				#header .logo {
 					position: relative;
 					text-align: center;
-					border-top: solid 5px #e7eae8;
+					border-top: solid 5px #616666;
 				}
 
 					#header .logo div {
