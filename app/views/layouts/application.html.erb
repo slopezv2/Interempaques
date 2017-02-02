@@ -18,7 +18,7 @@
 					<div class="logo container">
 						<div>
 							<img src="/images/grande.jpg" width="400" height="150"/>
-							<h1 class="hidden"><a href="/" id="logo">Internacional de Empaques S.A.S</a></h1>
+							<h1 class="hidden"><a href="/" id="logo" data-method="get">Internacional de Empaques S.A.S</a></h1>
 						</div>
 					</div>
 				</header>
@@ -26,10 +26,10 @@
 				<nav id="nav">
 					<ul>
 						<li><img src="/images/normal.jpg" height="45" width="110" class="icon" /></li>
-						<li class="current"><a href="/">Inicio</a></li>
-						<li><%= link_to 'Quiénes Somos', quienes_path %></li>
+						<li class="current"><a data-method="get" href="/">Inicio</a></li>
+						<li><%= link_to 'Quiénes Somos', quienes_path, method: :get %></li>
 						<li>
-							<%= link_to 'Productos', productos_path %>
+							<%= link_to 'Productos', productos_path,  method: :get %>
 							<ul>
 								<li><a href="#">Empaquetaduras Ind.</a></li>
 								<li><a href="#">Hidráulica y Neumática</a></li>
@@ -38,8 +38,8 @@
 								<li><a href="#">Adhesivos y Lub. Loctite</a></li>
 							</ul>
 						</li>
-						<li><%= link_to 'Clientes', clientes_path %></li>
-						<li><%= link_to 'Contáctenos', contacto_path %></li>
+						<li><%= link_to 'Clientes', clientes_path, method: :get %></li>
+						<li><%= link_to 'Contáctenos', contacto_path, method: :get %></li>
 					</ul>
 				</nav>
   </div>
@@ -106,12 +106,12 @@
             <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<hr>
-		<div class="row container">
-											<div class="4u"></div>
-											<div class="4u">
-												<img src="/images/grande.jpg" width="450" height="150" class="image centered"/>
+		<div class="container">
+											<div class="col-xs-4"></div>
+											<div class="col-xs-4">
+												<img src="/images/grande.jpg" width="450" height="150" class=""/>
 											</div>
-											<div class="4u"></div>
+											<div class="col-xs-4"></div>
 						</div>
 	</body>
 </html>
