@@ -18,6 +18,10 @@
 		vertical-align: baseline;
 	}
 
+	.texto-grande{
+		font-size: 14pt;
+	}
+
 	.espacio-abajo{
 		padding: 30;
 	}
