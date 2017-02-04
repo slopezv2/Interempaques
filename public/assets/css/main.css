@@ -21,9 +21,13 @@
 	.texto-grande{
 		font-size: 14pt;
 	}
+	.titulos-rojos{
+		color: #B82821;
+	}
 
 	.espacio-abajo{
 		padding: 30;
+		margin: 30;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
