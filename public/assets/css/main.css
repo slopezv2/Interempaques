@@ -24,10 +24,16 @@
 	.titulos-rojos{
 		color: #B82821;
 	}
+	
 
 	.espacio-abajo{
-		padding: 30;
+		
 		margin: 30;
+	}
+
+	.espacio-abajo2{
+		
+		margin: 30 0 0;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1601,7 +1607,7 @@
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			border-color: #a1cd9b;
+			border-color: #B82821;
 		}
 
 	form input[type="text"],
