@@ -22,22 +22,23 @@
 											<section>
 												<div class="row">
 													<div class="12u 12u(mobile)">
-														<form method="post" action="#">
+														<form method="post" action="contactar/">
 															<div class="field">
-																<label for="name">Nombre</label>
-																<input type="text" name="name" id="name" />
+																<label for="nombre">Nombre</label>
+																<input type="text" name="nombre" id="nombre" />
 															</div>
 															<div class="field">
-																<label for="email">Correo</label>
-																<input type="email" name="email" id="email" />
+																<label for="correo">Correo</label>
+																<input type="email" name="correo" id="correo" />
 															</div>
 															<div class="field">
-																<label for="message">Mensaje</label>
-																<textarea name="message" id="message" rows="4"></textarea>
+																<label for="mensaje">Mensaje</label>
+																<textarea name="mensaje" id="mensaje" rows="4"></textarea>
 															</div>
 															<ul class="actions">
 																<li><input type="submit" value="Enviar" /></li>
 															</ul>
+															<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
 														</form>
 													</div>
 													

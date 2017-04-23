@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'productos/' => 'welcome#Productos', as: :productos
   get 'clientes/' => 'welcome#Clientes', as: :clientes
   get 'contacto/' => 'welcome#Contacto', as: :contacto
+  post 'contactar/' => 'welcome#contactar', as: :contactar
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
