@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'nuevo/index'
+
   root 'welcome#Index'
   get 'quienes/' => 'welcome#Quienes', as: :quienes
   get 'productos/' => 'welcome#Productos', as: :productos
