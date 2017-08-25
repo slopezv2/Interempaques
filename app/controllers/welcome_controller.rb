@@ -9,6 +9,8 @@ class WelcomeController < ApplicationController
   end
   def Contacto
   end
+  def Sedes
+  end
   def contactar
      if contactar_params[:correo]
         correo = contactar_params[:correo]
