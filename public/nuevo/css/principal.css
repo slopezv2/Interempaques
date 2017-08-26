@@ -54,6 +54,11 @@ footer {
 }
 @media screen and (max-width: 768px){
     #mapa{
-	width: 340px;
+	width: 300px;
     }
+}
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #B82821;
+    color: white;
 }
