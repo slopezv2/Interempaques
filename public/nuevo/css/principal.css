@@ -60,5 +60,7 @@ footer {
 .panel > .panel-heading {
     background-image: none;
     background-color: #B82821;
+    height: 60px;
     color: white;
+    padding-bottom: 0px;
 }
